@@ -1,0 +1,40 @@
+{
+    "comments": [
+        {
+            "name": "sample",
+            "email": "asdf@bn.com",
+            "message": "qwer",
+            "time": "2025-05-09 19:47:12"
+        },
+        {
+            "name": "samplee",
+            "email": "asdf@bn.com",
+            "message": "asdf",
+            "time": "2025-05-09 19:53:48"
+        },
+        {
+            "name": "samplee",
+            "email": "asdf@bn.com",
+            "message": "sdf",
+            "time": "2025-05-09 20:00:00"
+        },
+        {
+            "name": "name",
+            "email": "email@gmail.com",
+            "message": "werty",
+            "time": "2025-05-09 21:23:18"
+        },
+        {
+            "name": "qwertyu",
+            "email": "asdfg@gmail.com",
+            "message": "wertyui",
+            "time": "2025-05-09 23:15:13"
+        }
+    ],
+    "ratings": [
+        5,
+        5,
+        2,
+        3
+    ]
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab II</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/script.js"></script>
+</head>
+<body class="back-img">
+    <header class="lab2-header">
+        <h1 id="main-title">JavaScript Framework: AngularJS </h1>
+        <img src="images/AngularJs.jpg" alt="AngularJS Logo" class="logo">
+    </header>
+
+    <main class="lab2-main">
+
+        <section class="angularjs">
+            <h2>Why Would Someone Use AngularJS?</h2>
+            <p>
+                The dynamic web applications get their structure through AngularJS 
+                framework construction. Developers can use HTML to build templates 
+                before extending the language syntax to create application components 
+                in a simplified and direct way. AngularJS finds its perfect application
+                in developing single-page applications (SPAs) due to its two-way data binding
+                and dependency injection and modular architecture features.
+            </p>
+        </section>
+    
+        <section class="pros-cons">
+            <h2>Pros and Cons of AngularJS</h2>
+            <div class="lab2-pros">
+                <h3>Pros:</h3>
+                
+                    <p><strong>Two-Way Data Binding:</strong> The system performs automatic synchronization between model data and view data to cut down repetitive coding.</p>
+                    <p><strong>Dependency Injection:</strong> Testing becomes easier while reusable components find promotion.</p>
+                    <p><strong>Modular Architecture:</strong> The approach supports both independent system modules as well as flexible growth.</p>
+                    <p><strong>Community Support:</strong> Documentation remains extensive but the developer community responds less actively to 
+                        Angular 1 since alternative frameworks gain more attention.</p>
+                
+            </div>
+            <div class="lab2-cons">
+                <h3>Cons:</h3>
+                
+                    <p><strong>Performance Issues:</strong> Performance bottlenecks appear during two-way data binding operations within large applications.</p>
+                    <p><strong>Steep Learning Curve:</strong> The engineer needs to understand scopes as well as directives and dependency injection.</p>
+                    <p><strong>Outdated:</strong> The AngularJS maintenance has ended (as of December 2021) yet developers should opt for Angular
+                         (version 2 and above) in new project development.</p>
+                
+            </div>
+        </section>
+    
+        <section class="history">
+            <h2>History of AngularJS</h2>
+            <p>
+                AngularJS originated from Misko Hevery and Adam Abrons 
+                during 2009 before Google secured ownership of the project. 
+                High popularity developed for AngularJS because it brought novel template-based 
+                framework combined with two-way data binding. The discontinuation of active AngularJS 
+                development did not prevent it from providing baseline concepts which evolved into modern 
+                versions of Angular such as Angular (version 2 and higher).
+            </p>
+        </section>
+        <br>
+        <section class="example-component">
+            <h2>The CLI ng generate command</h2>
+                <p>The command creates both Angular components and generates four corresponding files which include TypeScript and HTML template along with CSS and test features. 
+                    Four different files appear during creation through this command: TypeScript file, HTML template, CSS file and test file. 
+                    The following code represents the produced TypeScript file:</p>
+            <pre class="code-block">
+        <code>
+        import { Component, OnInit } from '@angular/core';
+        
+        @Component({
+          selector: 'app-example',
+          templateUrl: './example.component.html',
+          styleUrls: ['./example.component.css']
+        })
+        export class ExampleComponent implements OnInit {
+          constructor() { }
+        
+          ngOnInit() { }
+        }
+        </code>
+            </pre>
+        </section>
+        <section class="form-validation">
+            <h2>Example with AngularJS</h2>
+            <p>Use the form below to test the validation functionality. Both fields (Name and Email) are required.</p>
+            <form id="myForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form> 
+            <p id="message"></p>
+        </section>
+    </main>
+
+    <footer class="lab2-footer">
+
+    </footer>
+
+</body>
+</html>

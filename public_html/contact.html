@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Ram Sai</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="sticky-header">
+    <div class="container header-flex">
+      <h1 class="site-title">Contact Me</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="labs.html">Projects</a></li>
+          <li><a href="fav.html">Cars</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><button id="darkModeToggle">🌓</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contact-form-section">
+    <form action="php/contact.php" method="POST" class="contact-form" id="contactForm">
+      <h2>Get in Touch</h2>
+
+      <p id="confirmationMessage" style="color: green; font-weight: bold; display: none;">
+        ✅ Message sent successfully!
+      </p>
+
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+      <input type="email" id="email" name="email" placeholder="Your Email" required />
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    
+
+<section class="rating-section">
+  <h2>Rate My Portfolio</h2>
+  <form action="php/contact.php" method="POST">
+    <select name="rating" required>
+      <option value="">-- Select Rating --</option>
+      <option value="5">5</option>
+      <option value="4">4</option>
+      <option value="3">3</option>
+      <option value="2">2</option>
+      <option value="1">1</option>
+    </select>
+    <button type="submit" class="btn">Submit Rating</button>
+  </form>
+
+  <div class="rating-summary">
+    <iframe src="php/contact.php?summary=rating" style="border: none; width: 100%; height: 50px;"></iframe>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>

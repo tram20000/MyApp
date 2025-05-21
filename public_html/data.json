@@ -1,0 +1,32 @@
+[
+    {
+        "name": "sample_data",
+        "comment": "qwerty",
+        "rating": 5,
+        "timestamp": "2025-04-27 19:57:01"
+    },
+    {
+        "name": "sam",
+        "comment": "tyuio",
+        "rating": 4,
+        "timestamp": "2025-04-28 01:32:10"
+    },
+    {
+        "name": "tester",
+        "comment": "test",
+        "rating": 3,
+        "timestamp": "2025-05-04 01:23:45"
+    },
+    {
+        "name": "tester",
+        "comment": "test",
+        "rating": 3,
+        "timestamp": "2025-05-04 01:28:45"
+    },
+    {
+        "name": "sample_data_1",
+        "comment": "qwertyu",
+        "rating": 5,
+        "timestamp": "2025-05-04 01:38:31"
+    }
+]
